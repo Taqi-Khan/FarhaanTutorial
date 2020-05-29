@@ -1,0 +1,60 @@
+    @media only screen and (max-width: 1140px) {
+        .nav-list {
+            flex-direction: column;
+        }
+        .navbar {
+            height: 480px;
+            flex-direction: column;
+            transition: all 0.7s ease-out;
+        }
+        .main-box {
+            flex-direction: column-reverse;
+            width: auto;
+        }
+        .logo {
+            width: 30%;
+        }
+        #search {
+            width: 100%;
+            display: block;
+            margin: auto;
+        }
+        .rightNav {
+            text-align: center;
+        }
+        .burger {
+            display: block;
+        }
+        .h-nav-resp {
+            height: 70px;
+        }
+        .v-class-resp {
+            opacity: 0;
+        }
+        .secondHalf {
+            margin-top: 100px;
+        }
+        .text-small {
+            text-align: center;
+        }
+        .button {
+            text-align: center;
+        }
+        .section {
+            flex-direction: column-reverse;
+        }
+        .banner img {
+            max-width: 80%;
+            border-radius: 30px;
+        }
+        .paras {
+            padding: 0px 10px;
+        }
+        .thumbnail img {
+            height: 150px;
+            width: 150px;
+        }
+        .form {
+            max-width: 65%;
+        }
+    }
